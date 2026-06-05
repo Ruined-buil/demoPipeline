@@ -1,0 +1,30 @@
+{
+  "model_id": "PhYen/qwen_lora_base",
+  "base_model_id": "adapter_config.json",
+  "vlm_module": "ocr_demo.vlm_inference.run_inference",
+  "num_text_regions": 4,
+  "num_failed_crops": 0,
+  "predictions": [
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_155736_0082257b\\text\\text_000.jpg",
+      "raw_text": "I/OA ĐƠN BÁN HÀNG\nNgày bán:12/08/2020 18:13 H:00072880\nQuầy:01 NVBH:09021213\n\nMặt hàng\nđơn giá\nSL\nT. Tiền\nX-MEN Tắm gối 2inwood 650g\n83935136801370 164.000 1 164.000\n0X Kim rữa mặt toc dung sau",
+      "normalized_text": "i/oa đơn bán hàng ngày bán:12/08/2020 18:13 h:00072880 quầy:01 nvbh:09021213 mặt hàng đơn giá sl t. tiền x-men tắm gối 2inwood 650g 83935136801370 164.000 1 164.000 0x kim rữa mặt toc dung sau"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_155736_0082257b\\text\\text_001.jpg",
+      "raw_text": "H:00072880\nNVBH:09021213\n",
+      "normalized_text": "h:00072880 nvbh:09021213"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_155736_0082257b\\text\\text_002.jpg",
+      "raw_text": "chỉ xuất hóa đơn trong ngày\nTax invoice will be issued within same day\n",
+      "normalized_text": "chỉ xuất hóa đơn trong ngày tax invoice will be issued within same day"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_155736_0082257b\\text\\text_003.jpg",
+      "raw_text": "CÁM ĐÓN QUÝ KHÁCH VÀ HỆN GẶP LAI\nHotline: 02471066866 Website: vinmart.com\n",
+      "normalized_text": "cám đón quý khách và hện gặp lai hotline: 02471066866 website: vinmart.com"
+    }
+  ],
+  "final_text": "i/oa đơn bán hàng ngày bán:12/08/2020 18:13 h:00072880 quầy:01 nvbh:09021213 mặt hàng đơn giá sl t. tiền x-men tắm gối 2inwood 650g 83935136801370 164.000 1 164.000 0x kim rữa mặt toc dung sau h:00072880 nvbh:09021213 chỉ xuất hóa đơn trong ngày tax invoice will be issued within same day cám đón quý khách và hện gặp lai hotline: 02471066866 website: vinmart.com"
+}
