@@ -1,0 +1,30 @@
+{
+  "model_id": "PhYen/qwen_lora_base",
+  "base_model_id": "adapter_config.json",
+  "vlm_module": "ocr_demo.vlm_inference.run_inference",
+  "num_text_regions": 4,
+  "num_failed_crops": 0,
+  "predictions": [
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_163223_07b3843f\\text\\text_000.jpg",
+      "raw_text": "HÓA ĐƠN BÁN HÀNG\nNgày bán:26/10/2018 13:20 HĐ:00001962\nQuầy:001 NVBH:09015079\n",
+      "normalized_text": "hóa đơn bán hàng ngày bán:26/10/2018 13:20 hđ:00001962 quầy:001 nvbh:09015079"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_163223_07b3843f\\text\\text_001.jpg",
+      "raw_text": "Mặt hàng Đơn giá SL T.Tiền\nTấn tấn đầu vị tôm 200g T24\n8936101342584 - 49.200 1 49.200\n",
+      "normalized_text": "mặt hàng đơn giá sl t.tiền tấn tấn đầu vị tôm 200g t24 8936101342584 - 49.200 1 49.200"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_163223_07b3843f\\text\\text_002.jpg",
+      "raw_text": "Tổng tiền phải trả: 49.200\nTổng tiền đã giảm 0\nTiền khách trả 50.000\nTiền mặt 50.000\nTiền trả lại 800\n(Giả đã bao gồm thuế GTGT)\n",
+      "normalized_text": "tổng tiền phải trả: 49.200 tổng tiền đã giảm 0 tiền khách trả 50.000 tiền mặt 50.000 tiền trả lại 800 (giả đã bao gồm thuế gtgt)"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_163223_07b3843f\\text\\text_003.jpg",
+      "raw_text": "ID thẻ khách hàng XXXXXXXXXXXX0359\nĐiểm tích(1.000VND=1 điểm)\nSố tham chiếu 00166200100001962\nchỉ xuất hóa đơn trong ngày\nTax invoice will be issued within same day\nCÁM ĐÓN QUÝ KIẾCH VÀ HỆN GẶP LẠI\nphone: 18006968 Website: www.vinmart.com\n",
+      "normalized_text": "id thẻ khách hàng xxxxxxxxxxxx0359 điểm tích(1.000vnd=1 điểm) số tham chiếu 00166200100001962 chỉ xuất hóa đơn trong ngày tax invoice will be issued within same day cám đón quý kiếch và hện gặp lại phone: 18006968 website: www.vinmart.com"
+    }
+  ],
+  "final_text": "hóa đơn bán hàng ngày bán:26/10/2018 13:20 hđ:00001962 quầy:001 nvbh:09015079\nmặt hàng đơn giá sl t.tiền tấn tấn đầu vị tôm 200g t24 8936101342584 - 49.200 1 49.200\ntổng tiền phải trả: 49.200 tổng tiền đã giảm 0 tiền khách trả 50.000 tiền mặt 50.000 tiền trả lại 800 (giả đã bao gồm thuế gtgt)\nid thẻ khách hàng xxxxxxxxxxxx0359 điểm tích(1.000vnd=1 điểm) số tham chiếu 00166200100001962 chỉ xuất hóa đơn trong ngày tax invoice will be issued within same day cám đón quý kiếch và hện gặp lại phone: 18006968 website: www.vinmart.com"
+}

@@ -5,10 +5,10 @@ from pathlib import Path
 APP_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_ROOT = APP_DIR / "outputs"
 
-MODEL_ID = "PhYen/qwen_lora_base"
+MODEL_ID = "Ben248/qwen3.5-0.8Bv1"
 BASE_MODEL_ID = os.environ.get("QWEN_BASE_MODEL_ID", "").strip() or None
 
-LAYOUT_THRESHOLD = 0.3
+LAYOUT_THRESHOLD = 0.2
 LAYOUT_DEVICE = "cpu"
 MERGE_Y_THRESH = 15
 MERGE_X_THRESH = 10

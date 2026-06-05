@@ -1,0 +1,15 @@
+{
+  "model_id": "PhYen/qwen_lora_base",
+  "base_model_id": "adapter_config.json",
+  "vlm_module": "ocr_demo.vlm_inference.run_inference",
+  "num_text_regions": 1,
+  "num_failed_crops": 0,
+  "predictions": [
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_171732_3101dc8e\\text\\text_000.jpg",
+      "raw_text": "Quý khách cần hóa đơn tài chính\nvui lòng cung cấp thông tin trong ngày\nPASSWORD WIFI: Luckytea\n",
+      "normalized_text": "quý khách cần hóa đơn tài chính vui lòng cung cấp thông tin trong ngày password wifi: luckytea"
+    }
+  ],
+  "final_text": "quý khách cần hóa đơn tài chính vui lòng cung cấp thông tin trong ngày password wifi: luckytea"
+}

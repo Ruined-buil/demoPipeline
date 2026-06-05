@@ -1,0 +1,31 @@
+{
+  "input_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_171732_3101dc8e\\input\\uploaded.png",
+  "run_dir": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_171732_3101dc8e",
+  "layout_model": "PP-DocLayoutV2",
+  "device": "cpu",
+  "threshold": 0.2,
+  "merge_y_thresh": 15,
+  "merge_x_thresh": 10,
+  "regions_data": [
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.9477737545967102,
+      "coordinate": [
+        1,
+        3,
+        902,
+        225
+      ],
+      "order": 1,
+      "bbox_safe": [
+        1,
+        3,
+        902,
+        225
+      ],
+      "crop_id": "text_000.jpg",
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_171732_3101dc8e\\text\\text_000.jpg"
+    }
+  ]
+}
