@@ -1,0 +1,91 @@
+{
+  "input_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\input\\uploaded.png",
+  "run_dir": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0",
+  "layout_model": "PP-DocLayoutV2",
+  "device": "cpu",
+  "threshold": 0.3,
+  "merge_y_thresh": 15,
+  "merge_x_thresh": 10,
+  "regions_data": [
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.8132769325748086,
+      "coordinate": [
+        170,
+        148,
+        575,
+        348
+      ],
+      "order": 1,
+      "bbox_safe": [
+        170,
+        148,
+        575,
+        348
+      ],
+      "crop_id": "text_000.jpg",
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_000.jpg"
+    },
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.4398353397846222,
+      "coordinate": [
+        173,
+        150,
+        304,
+        231
+      ],
+      "order": 2,
+      "bbox_safe": [
+        173,
+        150,
+        304,
+        231
+      ],
+      "crop_id": "text_001.jpg",
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_001.jpg"
+    },
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.47120901942253113,
+      "coordinate": [
+        166,
+        717,
+        570,
+        772
+      ],
+      "order": 8,
+      "bbox_safe": [
+        166,
+        717,
+        570,
+        772
+      ],
+      "crop_id": "text_002.jpg",
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_002.jpg"
+    },
+    {
+      "cls_id": 22,
+      "label": "text",
+      "score": 0.4730316996574402,
+      "coordinate": [
+        166,
+        788,
+        562,
+        841
+      ],
+      "order": 9,
+      "bbox_safe": [
+        166,
+        788,
+        562,
+        841
+      ],
+      "crop_id": "text_003.jpg",
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_003.jpg"
+    }
+  ]
+}

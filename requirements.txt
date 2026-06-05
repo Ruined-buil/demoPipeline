@@ -1,0 +1,19 @@
+# CPU-first requirements for demoPipeline/Scripts/paddle_layout_single_image.py
+#
+# Install with:
+#   demoPipeline\venv\Scripts\python.exe -m pip install -r demoPipeline\requirements.txt
+#
+# If you want GPU instead of CPU, replace `paddlepaddle==3.2.1`
+# with the appropriate `paddlepaddle-gpu` build for your CUDA version.
+
+paddlepaddle==3.2.1
+paddleocr>=3.0.0
+opencv-python>=4.10.0
+gradio
+torch
+torchvision
+transformers
+accelerate
+peft
+pillow
+huggingface-hub

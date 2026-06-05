@@ -1,0 +1,24 @@
+{
+  "model_id": "PhYen/qwen_lora_base",
+  "num_text_regions": 4,
+  "num_failed_crops": 4,
+  "predictions": [
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_144008_43a921fc\\text\\text_000.jpg",
+      "error": "Could not load AutoProcessor for PhYen/qwen_lora_base; processor-based image input is unavailable."
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_144008_43a921fc\\text\\text_001.jpg",
+      "error": "Could not load AutoProcessor for PhYen/qwen_lora_base; processor-based image input is unavailable."
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_144008_43a921fc\\text\\text_002.jpg",
+      "error": "Could not load AutoProcessor for PhYen/qwen_lora_base; processor-based image input is unavailable."
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_144008_43a921fc\\text\\text_003.jpg",
+      "error": "Could not load AutoProcessor for PhYen/qwen_lora_base; processor-based image input is unavailable."
+    }
+  ],
+  "final_text": ""
+}

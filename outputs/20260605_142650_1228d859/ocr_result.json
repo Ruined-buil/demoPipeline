@@ -1,0 +1,24 @@
+{
+  "model_id": "PhYen/qwen_lora_base",
+  "num_text_regions": 4,
+  "num_failed_crops": 4,
+  "predictions": [
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_142650_1228d859\\text\\text_000.jpg",
+      "error": "Could not load PhYen/qwen_lora_base. Check that the model is accessible and VLM dependencies are installed."
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_142650_1228d859\\text\\text_001.jpg",
+      "error": "Could not load PhYen/qwen_lora_base. Check that the model is accessible and VLM dependencies are installed."
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_142650_1228d859\\text\\text_002.jpg",
+      "error": "Could not load PhYen/qwen_lora_base. Check that the model is accessible and VLM dependencies are installed."
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_142650_1228d859\\text\\text_003.jpg",
+      "error": "Could not load PhYen/qwen_lora_base. Check that the model is accessible and VLM dependencies are installed."
+    }
+  ],
+  "final_text": ""
+}

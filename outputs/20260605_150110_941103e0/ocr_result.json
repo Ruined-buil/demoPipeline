@@ -1,0 +1,26 @@
+{
+  "model_id": "PhYen/qwen_lora_base",
+  "base_model_id": "",
+  "processor_id": "PhYen/qwen_lora_base",
+  "num_text_regions": 4,
+  "num_failed_crops": 4,
+  "predictions": [
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_000.jpg",
+      "error": "VLM inference failed. tokenizer path: ValueError: text input must be of type `str` (single example), `list[str]` (batch or single pretokenized example) or `list[list[str]]` (batch of pretokenized examples) or `list[tuple[list[str], list[str]]]` (batch of pretokenized sequence pairs).; processor path: AttributeError: 'Qwen3_5Model' object has no attribute 'generate'"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_001.jpg",
+      "error": "VLM inference failed. tokenizer path: ValueError: text input must be of type `str` (single example), `list[str]` (batch or single pretokenized example) or `list[list[str]]` (batch of pretokenized examples) or `list[tuple[list[str], list[str]]]` (batch of pretokenized sequence pairs).; processor path: AttributeError: 'Qwen3_5Model' object has no attribute 'generate'"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_002.jpg",
+      "error": "VLM inference failed. tokenizer path: ValueError: text input must be of type `str` (single example), `list[str]` (batch or single pretokenized example) or `list[list[str]]` (batch of pretokenized examples) or `list[tuple[list[str], list[str]]]` (batch of pretokenized sequence pairs).; processor path: AttributeError: 'Qwen3_5Model' object has no attribute 'generate'"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_150110_941103e0\\text\\text_003.jpg",
+      "error": "VLM inference failed. tokenizer path: ValueError: text input must be of type `str` (single example), `list[str]` (batch or single pretokenized example) or `list[list[str]]` (batch of pretokenized examples) or `list[tuple[list[str], list[str]]]` (batch of pretokenized sequence pairs).; processor path: AttributeError: 'Qwen3_5Model' object has no attribute 'generate'"
+    }
+  ],
+  "final_text": ""
+}

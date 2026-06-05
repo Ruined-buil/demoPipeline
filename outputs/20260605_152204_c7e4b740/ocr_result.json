@@ -1,0 +1,30 @@
+{
+  "model_id": "PhYen/qwen_lora_base",
+  "base_model_id": "adapter_config.json",
+  "vlm_module": "vlm_inference_test.run_inference",
+  "num_text_regions": 4,
+  "num_failed_crops": 0,
+  "predictions": [
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_152204_c7e4b740\\text\\text_000.jpg",
+      "raw_text": "VM+ QNH Dự án quy định đường sắt\nDA QĐdoc tuyên bố Số 3 Khu 2\nP. Cẩm Sơn, TP. Cẩm Phả, T. QN\n024.71066866-53951\n\nVINCOMMERCE\n\nHÓA ĐƠN BÁN HÀNG\nNgày bán: 14/08/2020 17:23 H:00047858\nQuầy:001 NVBH:09026745\n",
+      "normalized_text": "vm+ qnh dự án quy định đường sắt da qđdoc tuyên bố số 3 khu 2 p.cẩm sơn, tp.cẩm phả, t. qn 024.71066866-53951 vincommerce hóa đơn bán hàng ngày bán: 14/08/2020 17:23 h:00047858 quầy:001 nvbh:09026745"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_152204_c7e4b740\\text\\text_001.jpg",
+      "raw_text": "VinCommerce\n",
+      "normalized_text": "vincommerce"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_152204_c7e4b740\\text\\text_002.jpg",
+      "raw_text": "chỉ xuất hóa đơn trong ngày\nTax invoice will be issued within same day\n",
+      "normalized_text": "chỉ xuất hóa đơn trong ngày tax invoice will be issued within same day"
+    },
+    {
+      "crop_path": "D:\\VinSmartFuture\\RAG_Project\\demoPipeline\\outputs\\20260605_152204_c7e4b740\\text\\text_003.jpg",
+      "raw_text": "CÁM ĐƠN QUÝ KHÁCH VÀ HẸN GẶP LẠI\nHotline: 02471066866 Website: vinmart.com\n",
+      "normalized_text": "cám đơn quý khách và hẹn gặp lại hotline: 02471066866 website: vinmart.com"
+    }
+  ],
+  "final_text": "vm+ qnh dự án quy định đường sắt da qđdoc tuyên bố số 3 khu 2 p.cẩm sơn, tp.cẩm phả, t. qn 024.71066866-53951 vincommerce hóa đơn bán hàng ngày bán: 14/08/2020 17:23 h:00047858 quầy:001 nvbh:09026745 vincommerce chỉ xuất hóa đơn trong ngày tax invoice will be issued within same day cám đơn quý khách và hẹn gặp lại hotline: 02471066866 website: vinmart.com"
+}
