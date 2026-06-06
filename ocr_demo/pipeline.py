@@ -35,6 +35,7 @@ def process_image(image: Image.Image | None):
         return annotated_path, [], "", f"No text regions detected. Outputs saved to {run_dir}."
 
     raw_predictions = []
+    raw_output_lines = []
     normalized_predictions = []
     failed_count = 0
 
@@ -43,13 +44,16 @@ def process_image(image: Image.Image | None):
             raw_text = run_vlm_on_crop(Path(crop_path))
             clean_text = normalize_ocr_text(raw_text)
             raw_predictions.append({"crop_path": crop_path, "raw_text": raw_text, "normalized_text": clean_text})
+            if raw_text.strip():
+                raw_output_lines.append(raw_text.strip())
             if clean_text:
                 normalized_predictions.append(clean_text)
         except Exception as exc:
             failed_count += 1
             raw_predictions.append({"crop_path": crop_path, "error": str(exc)})
 
-    final_text = "\n".join(normalized_predictions)
+    final_raw_text = "\n\n".join(raw_output_lines)
+    final_normalized_text = "\n".join(normalized_predictions)
     write_json(
         run_dir / "ocr_result.json",
         {
@@ -59,11 +63,12 @@ def process_image(image: Image.Image | None):
             "num_text_regions": len(regions),
             "num_failed_crops": failed_count,
             "predictions": raw_predictions,
-            "final_text": final_text,
+            "final_raw_text": final_raw_text,
+            "final_normalized_text": final_normalized_text,
         },
     )
 
     status = f"Processed {len(crop_paths)} text crop(s). Outputs saved to {run_dir}."
     if failed_count:
         status += f" {failed_count} crop(s) failed VLM inference."
-    return annotated_path, crop_paths, final_text, status
+    return annotated_path, crop_paths, final_normalized_text, status

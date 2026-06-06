@@ -6,7 +6,7 @@ APP_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_ROOT = APP_DIR / "outputs"
 
 MODEL_ID = "Ben248/qwen3.5-0.8Bv1"
-BASE_MODEL_ID = os.environ.get("QWEN_BASE_MODEL_ID", "").strip() or None
+BASE_MODEL_ID = os.environ.get("QWEN_BASE_MODEL_ID", "").strip() or "unsloth/Qwen3.5-0.8B"
 
 LAYOUT_THRESHOLD = 0.2
 LAYOUT_DEVICE = "cpu"
