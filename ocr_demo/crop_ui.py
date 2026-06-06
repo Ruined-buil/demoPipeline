@@ -20,7 +20,7 @@ def build_crop_app():
             with gr.Column():
                 image_preview = gr.Image(label="Uploaded crop", type="filepath")
 
-        final_text = gr.Textbox(label="Final normalized OCR text", interactive=False, lines=8)
+        final_text = gr.Textbox(label="Final raw OCR text", interactive=False, lines=8)
 
         run_button.click(
             fn=process_crop_image,

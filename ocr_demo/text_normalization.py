@@ -15,7 +15,7 @@ def normalize_ocr_text(text: str) -> str:
         line = re.sub(r"[^\S\n]+", " ", raw_line)
         line = re.sub(r",([^\s])", r", \1", line)
         line = re.sub(r"\b(Q|P|TP|TX|TT|H|\u0110)\.\s+", r"\g<1>.", line, flags=re.IGNORECASE)
-        line = line.lower().strip()
+        line = line.strip()
         if line:
             normalized_lines.append(line)
 

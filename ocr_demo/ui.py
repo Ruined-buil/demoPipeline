@@ -26,7 +26,7 @@ def build_app():
                     height=320,
                 )
 
-        final_text = gr.Textbox(label="Final normalized OCR text", interactive=False, lines=8)
+        final_text = gr.Textbox(label="Final raw OCR text", interactive=False, lines=8)
 
         run_button.click(
             fn=process_image,

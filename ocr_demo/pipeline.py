@@ -71,4 +71,4 @@ def process_image(image: Image.Image | None):
     status = f"Processed {len(crop_paths)} text crop(s). Outputs saved to {run_dir}."
     if failed_count:
         status += f" {failed_count} crop(s) failed VLM inference."
-    return annotated_path, crop_paths, final_normalized_text, status
+    return annotated_path, crop_paths, final_raw_text, status

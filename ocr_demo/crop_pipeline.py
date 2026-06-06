@@ -39,4 +39,4 @@ def process_crop_image(image: Image.Image | None):
     )
 
     status = f"Processed 1 cropped image. Outputs saved to {run_dir}."
-    return str(input_path), normalize_ocr_text(result["raw_text"]), status
+    return str(input_path), result["raw_text"], status
